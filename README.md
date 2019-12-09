@@ -5,7 +5,7 @@ Testing for issue with golang mysql driver returning obscure error.
 ## Testing
 
 ```bash
-$ mysql.sh
+$ mariadb.sh
 2019/12/09 14:08:33 [INFO] generating a new CA key and certificate from CSR
 2019/12/09 14:08:33 [INFO] generate received request
 2019/12/09 14:08:33 [INFO] received CSR
