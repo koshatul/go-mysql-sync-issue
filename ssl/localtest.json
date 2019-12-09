@@ -1,0 +1,12 @@
+{
+    "CN": "mysql.localtest.me",
+    "hosts": [
+        "127.0.0.1",
+        "localhost",
+        "mysql.localtest.me"
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    }
+}
