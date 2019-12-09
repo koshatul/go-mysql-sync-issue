@@ -36,7 +36,7 @@ func main() {
 	}()
 
 	dsn = "localuser:localpass@tcp(mysql2.localtest.me:3306)/localtest?tls=custom"
-	for i := 0; i < 110; i++ {
+	for i := 0; i < 100; i++ {
 		func() {
 			dsn := dsn
 			db, _ := sql.Open("mysql", dsn)

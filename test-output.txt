@@ -1,0 +1,63 @@
+## Testing MariaDB 10.0
+++ starting MariaDB
+Waiting for server to be ready: .............
+MariaDB Version: 10.0.38-MariaDB-1~xenial
+++ Running tests
+2019/12/09 16:45:09 Initial Ping Error: %!s(<nil>)
+2019/12/09 16:45:09 Final Ping Error: Error 1129: Host '172.17.0.1' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'
+++ stopping mariadb-test
+mariadb-test
+## Testing MariaDB 10.1
+++ starting MariaDB
+Waiting for server to be ready: ....................
+MariaDB Version: 10.1.43-MariaDB-1~bionic
+++ Running tests
+2019/12/09 16:45:35 Initial Ping Error: %!s(<nil>)
+2019/12/09 16:45:35 Final Ping Error: Error 1129: Host '172.17.0.1' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'
+++ stopping mariadb-test
+mariadb-test
+## Testing MariaDB 10.2
+++ starting MariaDB
+Waiting for server to be ready: .............
+MariaDB Version: 10.2.29-MariaDB-1:10.2.29+maria~bionic
+++ Running tests
+2019/12/09 16:45:53 Initial Ping Error: %!s(<nil>)
+2019/12/09 16:45:53 Final Ping Error: commands out of sync. Did you run multiple statements at once?
+++ stopping mariadb-test
+mariadb-test
+## Testing MariaDB 10.3
+++ starting MariaDB
+Waiting for server to be ready: ...............
+MariaDB Version: 10.3.20-MariaDB-1:10.3.20+maria~bionic
+++ Running tests
+2019/12/09 16:46:12 Initial Ping Error: %!s(<nil>)
+2019/12/09 16:46:13 Final Ping Error: commands out of sync. Did you run multiple statements at once?
+++ stopping mariadb-test
+mariadb-test
+## Testing MariaDB 10.4
+++ starting MariaDB
+Waiting for server to be ready: ..............
+MariaDB Version: 10.4.10-MariaDB-1:10.4.10+maria~bionic
+++ Running tests
+2019/12/09 16:46:31 Initial Ping Error: %!s(<nil>)
+2019/12/09 16:46:31 Final Ping Error: commands out of sync. Did you run multiple statements at once?
+++ stopping mariadb-test
+mariadb-test
+## Testing MySQL 5.7
+++ starting MySQL
+Waiting for server to be ready: .........
+MySQL Version: 5.7.28
+++ Running tests
+2019/12/09 16:46:44 Initial Ping Error: %!s(<nil>)
+2019/12/09 16:46:44 Final Ping Error: Error 1129: Host '172.17.0.1' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'
+++ stopping mysql-test
+mysql-test
+## Testing MySQL 8.0
+++ starting MySQL
+Waiting for server to be ready: ...........
+MySQL Version: 8.0.18
+++ Running tests
+2019/12/09 16:46:59 Initial Ping Error: %!s(<nil>)
+2019/12/09 16:46:59 Final Ping Error: Error 1129: Host '172.17.0.1' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'
+++ stopping mysql-test
+mysql-test
